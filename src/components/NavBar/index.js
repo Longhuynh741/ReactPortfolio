@@ -18,13 +18,13 @@ export default class Navbar extends Component {
               <div className="top-bar-right">
                 <ul className="menu menu-hover-lines">
                   <li className="active">
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/">Portfolio</a>
+                    <a href="/Portfolio">Portfolio</a>
                   </li>
                   <li>
-                    <a href="/">Contact</a>
+                    <a href="/Contact">Contact</a>
                   </li>
                 </ul>
               </div>

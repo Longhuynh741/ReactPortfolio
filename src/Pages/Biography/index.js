@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-require("../Biography/style.css")
+require("./style.css")
 export default class Biography extends Component {
   render() {
     return (

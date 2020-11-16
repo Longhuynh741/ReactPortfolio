@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-require("../Portfolio/style.css");
+require("./style.css");
 export default class Portfolio extends Component {
   render() {
     return (

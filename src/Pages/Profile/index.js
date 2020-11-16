@@ -18,7 +18,7 @@ export default class Profile extends Component {
               <span className="location-text">Atlanta, GA</span>
             </span>
           </div>
-
+          <div className="columns shrink footer text-center">
           <div className="card-user-social">
             <ul className="menu">
               <li className="fa fa-github"><a href="https://github.com/Longhuynh741" target="_blank">GitHub </a> </li>
@@ -26,7 +26,8 @@ export default class Profile extends Component {
               <li className="fa fa-instagram"><a href="https://www.linkedin.com/in/long-huynh-299498193" target="_blank"> Linked In </a></li>
               <li className="fa"> <a href="https://longhuynh741.github.io/Portfolio-3/assets/images/Long's%20Resume%20(1).pdf" target="_blank"> Resume </a></li>
             </ul>
-          </div>
+            </div>
+            </div>
         </div>
       </div>
     );

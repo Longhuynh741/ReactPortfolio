@@ -1,20 +1,37 @@
 import './App.css';
-import Profile from './components/Profile';
+import Profile from './Pages/Profile';
 import Navbar from './components/NavBar';
-import Biography from './components/Biography';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Biography from './Pages/Biography';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Footer from './components/Footer';
+
 
 function App() {
   return (
+    <Router>
+
     <div className="App">
       <Navbar />
-      <Profile />
-      <Biography />
-      <Portfolio />
-      <Contact />
-    </div>
+      <Switch>
+        <Route exact path={["/", "Verdant"]}>
+            <Profile />
+            <Biography />
+        </Route>
+        <Route exact path={["/Portfolio"]}>
+        <Portfolio />
+        </Route>
+        <Route exact path={["/Contact"]}>
+        <Contact />
+        </Route>
+        </Switch>
+        <Footer />
+      </div>
+      </Router>
   );
 }
+
+
 
 export default App;

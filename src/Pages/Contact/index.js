@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-require("../Contact/style.css");
+require("./style.css");
 export default class Contact extends Component {
   render() {
     return (
