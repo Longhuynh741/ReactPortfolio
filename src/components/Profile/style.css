@@ -1,0 +1,115 @@
+
+.card-user-container {
+    margin-bottom: 1rem;
+    background-color: #fefefe;
+    color: #0a0a0a;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+  }
+  
+  .card-user-container .card-user-avatar .user-image {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 11.875rem;
+    height: 11.875rem;
+    padding: 0.9375rem;
+  }
+  
+  .card-user-container .card-user-avatar .user-image:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .card-user-container .card-user-bio {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-user-container .card-user-bio .location {
+    display: inline-block;
+    margin: 0 0.9375rem;
+    color: #767676;
+    font-size: 0.875rem;
+  }
+  
+  .card-user-container .card-user-bio .location-icon,
+  .card-user-container .card-user-bio .location-text {
+    display: inline-block;
+    padding: 0 0.3125rem;
+  }
+  
+  .card-user-container .card-user-social {
+    background: #e6e6e6;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-user-container .card-user-social ul {
+    display: inline-block;
+  }
+  
+  .card-user-container .card-user-social ul li {
+    margin: 0 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .card-user-container .card-user-social ul li:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .card-user-container .card-user-button {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+.social-links {
+  background: #1d92cf;
+  padding: 2rem 0 1rem;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.social-links i.fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .social-links {
+    padding: 2rem 0;
+  }
+  .social-links i.fa {
+    font-size: 2rem;
+    display: block;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+  }
+  .social-links a {
+    font-weight: bold;
+  }
+  .social-links .columns {
+    margin: 1rem 0;
+  }
+  .social-links .mobile-stack {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+
+  
